@@ -1,8 +1,20 @@
 {
   "name": "js-tools",
   "version": "1.0.0",
-  "description": "Useful tools in JavaScript ES6",
+  "description": "Useful snippets and tools in JavaScript",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "lint": "eslint --ext .js src test/unit"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-jest": "^23.6.0",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^5.4.0",
+    "jest": "^23.5.0",
+    "regenerator-runtime": "^0.12.1"
+  },
+  "dependencies": {
+    "axios": "^0.18.0"
   }
 }
